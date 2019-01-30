@@ -70,10 +70,10 @@ setMethod(f = "isValidVal",
                   msgBoxBegin()
                   message("Reference data configuraion start ...")
                   message("Configure bsgenome ...")
-                  bsgenomename<- BSgenome::available.genomes()[grepl(paste0(val,"$"),available.genomes())]
-                  if(length(bsgenomename)==0){
-                      stop("bsgenome not")
-                  }
+#                   bsgenomename<- BSgenome::available.genomes()[grepl(paste0(val,"$"),available.genomes())]
+#                   if(length(bsgenomename)==0){
+#                       stop("bsgenome not")
+#                   }
                   
                   bsgenomeinstall <- BSgenome::installed.genomes()[grepl(paste0(val,"$"),installed.genomes())]
                   
