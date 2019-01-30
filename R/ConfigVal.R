@@ -68,7 +68,7 @@ setMethod(f = "isValidVal",
               }
               if(item=="genome"){
                   msgBoxBegin()
-                  message("Reference data configuraion start ...")
+                  message("Reference data configuration start ...")
                   message("Configure bsgenome ...")
 #                   bsgenomename<- BSgenome::available.genomes()[grepl(paste0(val,"$"),available.genomes())]
 #                   if(length(bsgenomename)==0){
@@ -222,7 +222,7 @@ setMethod(f = "isValidVal",
                   }
                   
 
-                  message("Reference data configuraion done")
+                  message("Reference data configuration done")
                   msgBoxDone()
                   
               }
